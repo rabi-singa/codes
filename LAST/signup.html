@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Sign Up</title>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gray-200 px-4">
+    <div class="flex flex-col items-center w-full max-w-xs">
+        <div class="flex flex-col text-center bg-gray-300 p-7 w-full max-w-sm rounded-md shadow-xl">
+            <div class="pb-7">
+                <h1 class="text-3xl font-bold">Sign up</h1>
+                <p class="text-xs font-semibold">Sign up to continue</p>
+            </div>
+            <div class="flex flex-col gap-7 items-center">
+                <input class="border-b pb-1 border-gray-600 text-xs w-full outline-none" type="text" placeholder="Name">
+                <input class="border-b pb-1 border-gray-600 text-xs w-full outline-none" type="text" placeholder="Email">
+                <input class="border-b pb-1 border-gray-600 text-xs w-full outline-none" type="text" placeholder="Password">
+                <button
+                    class="bg-linear-to-r from-cyan-400 to-blue-600 text-white text-xs font-semibold w-full h-7 rounded-md cursor-pointer">Sign
+                    up</button>
+            </div>
+
+            <div class="flex gap-2 pt-4 text-xs font-semibold">
+                <input type="checkbox">
+                <label for="remember">Remember</label>
+            </div>
+
+            <div class="flex items-center my-5">
+                <div class="flex-grow border-t border-gray-600"></div>
+                <span class="mx-3 text-xs text-gray-600 uppercase">
+                    Access Quickly
+                </span>
+                <div class="flex-grow border-t border-gray-600"></div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-3 text-xs font-semibold">
+                <a class="py-1 px-4 border text-blue-600 border-blue-600 rounded hover:bg-blue-500 hover:text-white"
+                    href="https://www.google.com/">Google</a>
+                <a class="py-1 px-4 border text-blue-600 border-blue-600 rounded hover:bg-blue-500 hover:text-white"
+                    href="https://in.linkedin.com/?mcid=6844056167778418689&src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558718_kw.linkedin%20website_d.c_tid.kwd-10521864532_n.g_mt.e_geo.9150749&cid=&gclsrc=aw.ds&gad_source=1&gad_campaignid=14650114788&gbraid=0AAAAABKX7wEVdTEHeey0LIsFT4qBp8sO7&gclid=Cj0KCQiA4eHLBhCzARIsAJ2NZoJAOGFsEmegY678BIbcw8Psp47bH_u4QjyxrUaV5i3UWSZVIUVR9XsaArJKEALw_wcB">LinkedIn</a>
+                <a class="py-1 px-4 border text-blue-600 border-blue-600 rounded hover:bg-blue-500 hover:text-white"
+                    href="https://en.wikipedia.org/wiki/Single_sign-on">SSO</a>
+            </div>
+        </div>
+
+        <p class="text-xs pt-2 max-sm:text-center">Already have an account? <a class="text-blue-700 border-b"
+                href="login.html">Sign in</a></p>
+    </div>
+</body>
+
+</html>

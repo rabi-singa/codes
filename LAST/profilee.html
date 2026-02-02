@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>Profile Page</title>
+
+  <style>
+    /* For WebKit browsers (Chrome, Safari, Opera, new Edge) */
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* For IE, Edge, and Firefox */
+    .hide-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;     /* Firefox */
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  
+  <!-- nav bar -->
+  <nav class="bg-gray-300 flex justify-between items-center h-14 px-5 text-sm">
+    <h1 class="font-bold text-xl">Project</h1>
+    <div class="flex gap-6 items-center font-semibold max-sm:hidden">
+      <a href="home.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+      <a href="#">
+        <img 
+          class="h-10 w-10 rounded-full object-cover border border-white"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuNhTZJTtkR6b-ADMhmzPvVwaLuLdz273wvQ&s" 
+          alt="profile"
+        >
+      </a>
+    </div>
+
+    <div class="sm:hidden">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- profile section -->
+  <header class="bg-gray-500 h-60 max-sm:h-40 relative">
+
+    <div class="absolute bottom-0 translate-y-[calc(100%-100px)] max-sm:translate-y-[calc(100%-80px)] left-20 max-sm:left-[50%] max-sm:translate-x-[-50%] bg-red-600/0 flex flex-col max-sm:items-center">
+      <img 
+        class="h-50 w-50 max-sm:h-40 max-sm:w-40 rounded-full object-cover border-6 border-white"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuNhTZJTtkR6b-ADMhmzPvVwaLuLdz273wvQ&s" 
+        alt="profile"
+      >
+
+      <div class="mt-5 px-5 max-sm:text-center">
+        <h1 class="font-semibold text-lg">Mr. John Anderson</h1>
+        <h1 class="font-semibold text-sm text-gray-500">johnanderson@gmail.com</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- recently added section -->
+  <section class="mb-10 mt-60 max-sm:mt-50 max-w-320 mx-auto">
+    <h1 class="px-8 font-semibold text-lg mt-5">Recently added items:</h1>
+
+    <div class="px-5 overflow-x-scroll hide-scrollbar flex gap-3 py-5">
+
+      <!-- card 1 -->
+      <div class="min-w-80 max-w-80 bg-white p-2 border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+        <img 
+          class="rounded-[6px]"
+          src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" 
+          alt="Product"
+        >
+        <div class="p-2">
+          <h1 class="font-semibold">Product A</h1>
+          <p class="text-sm text-gray-500 text-justify">This is description. This is description. This is description.</p>
+        </div>
+      </div>
+
+      <!-- card 1 -->
+      <div class="min-w-80 max-w-80 bg-white p-2 border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+        <img 
+          class="rounded-[6px]"
+          src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" 
+          alt="Product"
+        >
+        <div class="p-2">
+          <h1 class="font-semibold">Product A</h1>
+          <p class="text-sm text-gray-500 text-justify">This is description. This is description. This is description.</p>
+        </div>
+      </div>
+ 
+      <!-- card 1 -->
+      <div class="min-w-80 max-w-80 bg-white p-2 border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+        <img 
+          class="rounded-[6px]"
+          src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" 
+          alt="Product"
+        >
+        <div class="p-2">
+          <h1 class="font-semibold">Product A</h1>
+          <p class="text-sm text-gray-500 text-justify">This is description. This is description. This is description.</p>
+        </div>
+      </div>
+ 
+      <!-- card 1 -->
+      <div class="min-w-80 max-w-80 bg-white p-2 border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+        <img 
+          class="rounded-[6px]"
+          src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" 
+          alt="Product"
+        >
+        <div class="p-2">
+          <h1 class="font-semibold">Product A</h1>
+          <p class="text-sm text-gray-500 text-justify">This is description. This is description. This is description.</p>
+        </div>
+      </div>
+ 
+      <!-- card 1 -->
+      <div class="min-w-80 max-w-80 bg-white p-2 border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+        <img 
+          class="rounded-[6px]"
+          src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" 
+          alt="Product"
+        >
+        <div class="p-2">
+          <h1 class="font-semibold">Product A</h1>
+          <p class="text-sm text-gray-500 text-justify">This is description. This is description. This is description.</p>
+        </div>
+      </div>
+ 
+      <!-- card 1 -->
+      <div class="min-w-80 max-w-80 bg-white p-2 border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+        <img 
+          class="rounded-[6px]"
+          src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg" 
+          alt="Product"
+        >
+        <div class="p-2">
+          <h1 class="font-semibold">Product A</h1>
+          <p class="text-sm text-gray-500 text-justify">This is description. This is description. This is description.</p>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+  <section class="bg-white py-5">
+    <div class="max-w-320 mx-auto px-5">
+      <h1 class="font-semibold text-lg">Settings:</h1>
+      <div class="flex flex-col gap-3 mt-5">
+        <button class="bg-gray-200 w-30 h-8 text-sm font-semibold rounded-sm cursor-pointer">Upload</button>
+        <button class="bg-red-500 text-white w-30 h-8 text-sm font-semibold rounded-sm cursor-pointer">Logout</button>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-green-950 text-gray-400">
+    <div class="flex justify-around py-10 max-md:flex-col max-md:gap-5 max-md:items-center max-sm:px-3">
+      <div class="flex flex-col gap-5 max-w-50">
+        <h1 class="text-sm font-bold">ATARAXIS</h1>
+
+        <p class="text-xs">Lorem ipsum dolor, quia nobis omnis dicta quod delectus praesentium odit nihil deserunt nulla labore vitae velit commodi voluptate? Sed, laboriosam.</p>
+
+        <div class="flex flex-row gap-2">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-threads"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+
+        <button class="flex justify-center items-center gap-2 text-xs rounded-sm border-1 white max-w-28 h-7 px-2 cursor-pointer"><i class="fa-solid fa-angles-up"></i> BACK TO TOP</button>
+      </div>
+
+      <div class="flex gap-15">
+        <div class="flex flex-col gap-4">
+          <h1 class="font-bold text-sm">Site Map</h1>
+          <ul class="flex flex-col gap-2 text-xs">
+            <li>Homepage</li>
+            <li>Technology</li>
+            <li>Ataraxis Breast</li>
+            <li>Resoureces & news</li>
+            <li>Careers</li>
+            <li>Contact Us</li>
+            <li>Portal</li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h1 class="font-bold text-sm">Legal</h1>
+          <ul class="flex flex-col gap-2 text-xs">
+            <li>Privacy Policy</li>
+            <li>Terms of Services</li>
+            <li>Lawyer's Corners</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+      <p class="bg-yellow-600 text-black h-7 flex text-center justify-center items-center text-xs font-semibold">Copyright 2025 All rights reserved</p>
+    
+  </footer>
+</body>
+</html>

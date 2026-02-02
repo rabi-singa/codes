@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Home Page</title>
+</head>
+
+<body class="bg-slate-800 px-5">
+    <nav class="bg-white text-blue-900 flex justify-between items-center py-3 px-7 max-sm:flex-col">
+        <h1 class="text-lg font-bold">SiteManage></h1>
+        <div class="border rounded-xl relative">
+            <i class="fa-solid fa-magnifying-glass absolute top-[20%]"></i>
+            <input class="pl-6 outline-none" type="text" placeholder="Search">
+            <i class="fa-solid fa-microphone absolute top-[20%] right-[2%]"></i>
+        </div>
+        <div class="flex gap-5 text-xs max-md:hidden">
+            <a class=" hover:text-red-500" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">About <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Service <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Contact <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <section>
+        <div class="bg-blue-600 text-center flex flex-col gap-4 py-11">
+            <h1 class="text-4xl text-white font-semibold">Wellcome to Our Website</h1>
+            <p class="text-white text-lg">Innovative Solutions for Your Success</p>
+            <div class="flex justify-center gap-3 font-bold  max-md:px-2">
+                <button
+                    class="bg-green-400 text-white text-sm h-9 w-35 rounded-md cursor-pointer hover:bg-white hover:text-black shadow-lg  max-sm:text-xs">Get
+                    Stared</button>
+                <button
+                    class="bg-white text-black text-sm h-9 w-35 rounded-md cursor-pointer hover:bg-green-500 hover:text-white shadow-lg  max-sm:text-xs">Learn
+                    More</button>
+            </div>
+        </div>
+
+        <div class="text-center flex flex-col gap-4 bg-white py-9">
+            <h1 class="text-2xl font-bold text-blue-900">About Us</h1>
+            <p class="text-blue-900">We provide creative and effetive solutions help your business grow.</p>
+            <div>
+                <button
+                    class="bg-blue-600 text-white font-bold text-sm h-9 w-35 rounded-md cursor-pointer hover:bg-white hover:text-black shadow-lg">Read
+                    More</button>
+            </div>
+        </div>
+
+        <div class="text-center flex flex-col gap-4 text-blue-900 bg-slate-300 py-9">
+            <div class="flex items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+                <span class="mx-6 text-2xl font-bold text-blue-900">
+                    Our Services
+                </span>
+                <div class="flex-grow border-t border-gray-400"></div>
+            </div>
+            <div class="max-w-300 mx-auto grid gap-3 grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1  max-md:px-2">
+                <div class="bg-white max-w-60 py-4 rounded-md shadow-lg hover:-translate-y-1 transition-all">
+                    <i class="fa-solid fa-database text-2xl"></i>
+                    <h1 class="text-lg font-bold py-1">Web Development</h1>
+                    <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, architecto
+                        inventodolorem.</p>
+                </div>
+                <div class="bg-white max-w-60 py-4 rounded-md shadow-lg hover:-translate-y-1 transition-all">
+                    <i class="fa-solid fa-database text-2xl"></i>
+                    <h1 class="text-lg font-bold py-1">App Design</h1>
+                    <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, architecto
+                        inventodolorem.</p>
+                </div>
+                <div class="bg-white max-w-60 py-4 rounded-md shadow-lg hover:-translate-y-1 transition-all">
+                    <i class="fa-solid fa-database text-2xl"></i>
+                    <h1 class="text-lg font-bold py-1">App Design</h1>
+                    <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, architecto
+                        inventodolorem.</p>
+                </div>
+                <div class="bg-white max-w-60 py-4 rounded-md shadow-lg hover:-translate-y-1 transition-all">
+                    <i class="fa-solid fa-database text-2xl"></i>
+                    <h1 class="text-lg font-bold py-1">Online Learning</h1>
+                    <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, architecto
+                        inventodolorem.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white py-9 text-blue-900">
+            <div class="flex items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+                <span class="mx-6 text-2xl font-bold">
+                    Why Choose Us
+                </span>
+                <div class="flex-grow border-t border-gray-400"></div>
+            </div>
+            <div class="text-center flex justify-center gap-5 py-5 max-sm:flex-col max-md:items-center">
+                <div class="border border-gray-300 py-4 px-4 rounded-md shadow-lg hover:-translate-y-1 transition-all">
+                    <i class="fa-solid fa-database text-2xl"></i>
+                    <h1 class="text-lg font-bold">Easy to Use</h1>
+                    <p class="text-xs">lorem is the nothing it's somthing</p>
+                </div>
+                <div class=" border border-gray-300 py-4 px-4 rounded-md shadow-lg hover:-translate-y-1 transition-all">
+                    <i class="fa-solid fa-database text-2xl"></i>
+                    <h1 class="text-lg font-bold">Affordable</h1>
+                    <p class="text-xs">lorem is the nothing it's somthing</p>
+                </div>
+                <div class="border border-gray-300 py-4 px-4 rounded-md shadow-lg hover:-translate-y-1 transition-all">
+                    <i class="fa-solid fa-database text-2xl"></i>
+                    <h1 class="text-lg font-bold">24/7 Support</h1>
+                    <p class="text-xs">lorem is the nothing it's somthing</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-slate-300 text-center py-9 text-blue-900">
+            <h1 class="text-lg font-bold">Your Website</h1>
+            <p class="border-b border-gray-400 py-2 text-sm">Lorem | More</p>
+
+            <div class="flex justify-center gap-15 pt-4 max-sm:items-center max-md:flex-col">
+                <div>
+                    <h1 class="text-4xl font-bold">100+</h1>
+                    <p class="text-sm">Happy Clients</p>
+                </div>
+                <div>
+                    <h1 class="text-4xl font-bold">5+</h1>
+                    <p class="text-sm">Years of Experience</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white py-9">
+            <div class="flex items-center pb-5">
+                <div class="flex-grow border-t border-gray-400"></div>
+                <span class="mx-6 text-2xl font-bold text-blue-900">
+                   Ready to Get Started?
+                </span>
+                <div class="flex-grow border-t border-gray-400"></div>
+            </div>
+            <div class="text-center">
+                <button
+                    class="bg-blue-600 text-white font-bold text-sm h-9 w-35 rounded-md cursor-pointer hover:bg-white hover:text-black shadow-lg">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-700">
+        <div class="text-white flex justify-evenly items-center text-sm py-3 max-md:flex-col max-md:gap-2">
+            <div>@2026 Your Website</div>
+            <a>PrivacyPolicy</a>
+            <a href="#">About</a>
+            <div class="flex gap-4 text-xl">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-square-threads"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <nav class="bg-white text-blue-900 flex justify-between items-center py-3 px-7 mt-50 max-sm:flex-col">
+        <h1 class="text-lg font-bold">SiteManage></h1>
+        <div class="border rounded-xl relative">
+            <i class="fa-solid fa-magnifying-glass absolute top-[20%]"></i>
+            <input class="pl-6 outline-none" type="text" placeholder="Search">
+            <i class="fa-solid fa-microphone absolute top-[20%] right-[2%]"></i>
+        </div>
+        <div class="flex gap-5 text-xs max-md:hidden">
+            <a class=" hover:text-red-500" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">About <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Service <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Contact <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <section class=" bg-white text-blue-900 flex flex-col gap-5 items-center">
+        <div class="bg-slate-300 text-center flex flex-col gap-4 py-11 w-full">
+            <h1 class="text-4xl font-semibold">Our Service</h1>
+            <p class="text-lg">What We Offer</p>
+        </div>
+
+        <div class="max-sm:flex-col flex justify-center items-center gap-4 py-9 px-9 w-[80%] bg-blue-200 text-center rounded-md">
+            <div>
+                <img class="w-60 h-50" src="https://cmsminds.com/wp-content/uploads/2024/09/types-of-web-development.webp" alt="">
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold">Web Development</h1>
+                <p class="text-sm py-2">Custom websites crafted to meet your business needs.</p>
+                <button class="bg-white py-1 px-7 rounded-md text-xs">Learn More</button>
+            </div>
+        </div>
+
+        <div class="max-sm:flex-col flex justify-center items-center gap-4 py-9 px-9 w-[80%] bg-blue-200 text-center rounded-md">
+            <div>
+                <img class="w-60 h-50" src="https://cmsminds.com/wp-content/uploads/2024/09/types-of-web-development.webp" alt="">
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold">App Design</h1>
+                <p class="text-sm py-2">Innovative and user-friendly mobile applicatins.</p>
+                <button class="bg-white py-1 px-7 rounded-md text-xs">Learn More</button>
+            </div>
+        </div>
+
+        <div class="max-sm:flex-col flex justify-center items-center gap-4 py-9 px-9 w-[80%] bg-blue-200 text-center rounded-md">
+            <div>
+                <img class="w-60 h-50" src="https://cmsminds.com/wp-content/uploads/2024/09/types-of-web-development.webp" alt="">
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold">Online Learning</h1>
+                <p class="text-sm py-2">Engaging online courses and e-learning paltforms.</p>
+                <button class="bg-white py-1 px-7 rounded-md text-xs">Learn More</button>
+            </div>
+        </div>
+
+        <div class="max-sm:flex-col flex justify-center items-center gap-4 py-9 px-9 w-[80%] bg-blue-200 text-center rounded-md">
+            <div>
+                <img class="w-60 h-50" src="https://cmsminds.com/wp-content/uploads/2024/09/types-of-web-development.webp" alt="">
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold">Fast Support</h1>
+                <p class="text-sm py-2">Reliable and quink support for your digital needs.</p>
+                <button class="bg-white py-1 px-7 rounded-md text-xs">Learn More</button>
+            </div>
+        </div>
+        <div class="bg-blue-200 w-full py-9 text-center">
+            <h1 class="text-2xl font-bold pb-4">Ready to grow your business online?</h1>
+            <button class="bg-blue-600 text-white font-bold text-sm h-9 w-35 rounded-md cursor-pointer hover:bg-white hover:text-black shadow-lg">Contact Us</button>
+        </div>
+    </section>
+    <footer class="bg-slate-700">
+        <div class="text-white flex justify-evenly items-center text-sm py-3 max-md:flex-col max-md:gap-2">
+            <div>@2026 Your Website</div>
+            <a>PrivacyPolicy</a>
+            <a href="#">About</a>
+            <div class="flex gap-4 text-xl">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-square-threads"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <nav class="bg-white text-blue-900 flex justify-between items-center py-3 px-7 mt-50 max-sm:flex-col">
+        <h1 class="text-lg font-bold">SiteManage></h1>
+        <div class="border rounded-xl relative">
+            <i class="fa-solid fa-magnifying-glass absolute top-[20%]"></i>
+            <input class="pl-6 outline-none" type="text" placeholder="Search">
+            <i class="fa-solid fa-microphone absolute top-[20%] right-[2%]"></i>
+        </div>
+        <div class="flex gap-5 text-xs max-md:hidden">
+            <a class=" hover:text-red-500" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">About <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Service <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Contact <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <section class="text-blue-900">
+        <div class="bg-slate-300 text-center flex flex-col gap-4 py-11 w-full  max-md:px-2">
+            <h1 class="text-4xl font-semibold">About Us</h1>
+            <p class="text-lg">We are a passionate team dedicted t delivering top-media digital services.</p>
+        </div>
+    
+        <div class="bg-white flex justify-evenly text-center py-9 max-sm:flex-col max-sm:gap-5 max-md:items-center">
+            <div class="w-50  max-md:px-2">
+                <h1 class="text-2xl font-bold border-b border-gray-400 pb-3">Our Mission</h1>
+                <p class="text-start pt-3">To empower business with innovative & efficient digital services.</p>
+            </div>
+            <div class="w-50  max-md:px-2">
+                <h1 class="text-2xl font-bold border-b border-gray-400 pb-3">Our vision</h1>
+                <p class="text-start  pt-3">To be a leader in the dis-solutions industry.</p>
+            </div>
+        </div>
+
+        <div class="bg-slate-300 py-9 text-center ">
+            <div class="flex items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+                <span class="mx-6 text-2xl font-bold text-blue-900">
+                    Our Story
+                </span>
+                <div class="flex-grow border-t border-gray-400"></div>
+            </div>
+            <p class="border-b border-gray-400 py-5  max-md:px-2">Founded in 2020, we started with a simple idea to make a difference in
+                the digital world.</p>
+    
+            <div class="flex items-center pt-5">
+                <div class="flex-grow border-t border-gray-400"></div>
+                <span class="mx-6 text-2xl font-bold text-blue-900">
+                    Meet the Team
+                </span>
+                <div class="flex-grow border-t border-gray-400"></div>
+            </div>
+            <div class="px-5 overflow-x-scroll hide-scrollbar flex gap-3 py-5">
+                <div
+                    class="min-w-70 max-w-70 bg-white border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <img class="rounded-[6px] w-70 h-60 object-cover" src="https://scontent.fshl2-1.fna.fbcdn.net/v/t39.30808-6/474531165_122219413994071381_5129735367266395090_n.jpg?stp=c0.67.653.653a_dst-jpg_s565x565_tt6&_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=uk2QEEB86jMQ7kNvwGLsuFl&_nc_oc=AdkLt1z-P9_twpfKyNtJmo9u5yFS1ygdEGVvnsYgQ5gWiyhkh36R6_jbm8GGXjC9Oj5rHGUR1KdCgjVvjx6LFYIC&_nc_zt=23&_nc_ht=scontent.fshl2-1.fna&_nc_gid=GPIfOWbbAzASYDAeN0IOYg&oh=00_Afu9POvaqTAgqmL253BrseEufgH6h4mYSChELoNNr13H9w&oe=6984C391"
+                        alt="Product">
+                    <div class="p-2 text-center">
+                        <h1 class="font-extrabold">S.Rabi</h1>
+                        <p class="text-sm text-gray-500">Founder</p>
+                    </div>
+                </div>
+
+                <div
+                    class="min-w-70 max-w-70 bg-white border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <img class="rounded-[6px] w-70 h-60 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHGqd4ZskQbsM7vILpprp-8PznB1j3c4cWXQ&s"
+                        alt="Product">
+                    <div class="p-2 text-center">
+                        <h1 class="font-extrabold">Mr.Tomba</h1>
+                        <p class="text-sm text-gray-500">Co-Founder</p>
+                    </div>
+                </div>
+
+
+                <div
+                    class="min-w-70 max-w-70 bg-white border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <img class="rounded-[6px] w-70 h-60 object-cover" src="https://wiki.d-addicts.com/images/thumb/6/62/Nancy.jpg/360px-Nancy.jpg"
+                        alt="Product">
+                    <div class="p-2 text-center">
+                        <h1 class="font-extrabold">P.Sarjubala</h1>
+                        <p class="text-sm text-gray-500">CEO</p>
+                    </div>
+                </div>
+
+                <div
+                    class="min-w-70 max-w-70 bg-white border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <img class="rounded-[6px] w-70 h-60 object-cover" src="https://i1.pickpik.com/photos/516/857/262/smile-profile-face-male-preview.jpg"
+                        alt="Product">
+                    <div class="p-2 text-center">
+                        <h1 class="font-extrabold">G.Chaoba</h1>
+                        <p class="text-sm text-gray-500">Project Manager</p>
+                    </div>
+                </div>
+
+                <div
+                    class="min-w-70 max-w-70 bg-white border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <img class="rounded-[6px] w-70 h-60 object-cover" src="https://shotkit.com/wp-content/uploads/2021/06/Cool-profile-picture-Zoom.jpg"
+                        alt="Product">
+                    <div class="p-2 text-center">
+                        <h1 class="font-extrabold">K.Chintu</h1>
+                        <p class="text-sm text-gray-500">Assistant Project Manager</p>
+                    </div>
+                </div>
+
+               <div
+                    class="min-w-70 max-w-70 bg-white border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <img class="rounded-[6px] w-70 h-60 object-cover" src="https://theportrait.company/wp-content/uploads/2022/06/Corporate-Headshot-for-a-LinkedIn-Profile.jpg"
+                        alt="Product">
+                    <div class="p-2 text-center">
+                        <h1 class="font-extrabold">Salman Khan</h1>
+                        <p class="text-sm text-gray-500">Senior Developer</p>
+                    </div>
+                </div>
+
+                <div
+                    class="min-w-70 max-w-70 bg-white border border-gray-300 rounded-[14px] cursor-pointer shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <img class="rounded-[6px] w-70 h-60 object-cover" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                        alt="Product">
+                    <div class="p-2 text-center">
+                        <h1 class="font-extrabold">Gokul</h1>
+                        <p class="text-sm text-gray-500">Senior Staff</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white py-9"> 
+            <div class="flex items-center py-5">
+                <div class="flex-grow border-t border-gray-400"></div>
+                <span class="mx-6 text-2xl font-bold text-blue-900">
+                    Our Values
+                </span>
+                <div class="flex-grow border-t border-gray-400"></div>
+            </div>  
+            
+            <div class="text-center flex justify-evenly font-bold max-sm:flex-col max-sm:gap-5">
+                <div>
+                    <i class="fa-solid fa-star text-5xl"></i>
+                    <h1>Integrity</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-5xl"></i>
+                    <h1>Quality</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-5xl"></i>
+                    <h1>Innovation</h1>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star text-5xl"></i>
+                    <h1>Customer Focus</h1>
+                </div>
+            </div>
+        </div>
+         <div class="bg-blue-200 w-full py-9 text-center">
+            <h1 class="text-2xl font-bold pb-4">Want to work with us?</h1>
+            <button class="bg-blue-600 text-white font-bold text-sm h-9 w-35 rounded-md cursor-pointer hover:bg-white hover:text-black shadow-lg">Contact Us</button>
+        </div>
+    </section>
+    <footer class="bg-slate-700">
+        <div class="text-white flex justify-evenly items-center text-sm py-3 max-md:flex-col max-md:gap-2">
+            <div>@2026 Your Website</div>
+            <a>PrivacyPolicy</a>
+            <a href="#">About</a>
+            <div class="flex gap-4 text-xl">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-square-threads"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+     <nav class="bg-white text-blue-900 flex justify-between items-center py-3 px-7 mt-50 max-sm:flex-col">
+        <h1 class="text-lg font-bold">SiteManage></h1>
+        <div class="border rounded-xl relative">
+            <i class="fa-solid fa-magnifying-glass absolute top-[20%]"></i>
+            <input class="pl-6 outline-none" type="text" placeholder="Search">
+            <i class="fa-solid fa-microphone absolute top-[20%] right-[2%]"></i>
+        </div>
+        <div class="flex gap-5 text-xs max-md:hidden">
+            <a class=" hover:text-red-500" href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">About <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Service <i class="fa-solid fa-angle-down"></i></a>
+            <a class=" hover:text-red-500" href="#">Contact <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+
+        <div class="md:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <section class="text-blue-900">
+        <div>
+            <div class="bg-slate-300 text-center flex flex-col gap-4 py-11 w-full">
+                <h1 class="text-4xl font-semibold">Contact Us</h1>
+                <p class="text-lg">Get in coush with us.</p>
+            </div>
+    
+            <div class="bg-blue-400 text-white flex flex-col gap-4 py-6 pl-6">
+                <div class="flex items-center gap-3">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>into@website.com</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+23553998324 </p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="firstPara">203 Fake St. Mountain View, San Francisco, California, USA</p>
+                </div>
+            </div>
+    
+            <div class="flex justify-center py-9">
+                <div class="bg-gray-300 w-[90%] px-5 py-3">
+                    <h1 class="text-center text-2xl font-bold">Send Us a Message</h1>
+                    <div class="flex flex-col gap-3">
+                        <div class="flex flex-col gap-1">
+                            <label class="flex text-sm font-semibold">Name:</label>
+                            <input class="text-xs bg-white border-1 rounded-md pl-2 py-1" type="text" placeholder="Name">
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <label class="flex text-sm font-semibold">Email:</label>
+                            <input class="text-xs bg-white border-1 rounded-md pl-2 py-1" type="text" placeholder="Email">
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <label class="flex text-sm font-semibold">Subject:</label>
+                            <input class="text-xs bg-white border-1 rounded-md pl-2 py-1" type="text" placeholder="Subject">
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <label class="flex text-sm font-semibold">Message:</label>
+                            <input class="text-xs h-25 bg-white border-1 rounded-md pl-2 py-1" type="text"
+                                placeholder="Message">
+                        </div>
+                        <div class="text-center">
+                            <button
+                                class="bg-blue-600 text-white font-bold text-sm h-9 w-35 rounded-md cursor-pointer hover:bg-white hover:text-black shadow-lg">Send
+                                Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div>
+            <img src="https://miro.medium.com/1*8ZhgsyCNQRDaKEB7Rk_Udw.jpeg" alt="">
+        </div>
+
+        
+        <div class="bg-blue-200 w-full py-9 flex flex-col items-center max-md:text-center">
+            <h1 class="text-2xl font-bold pb-4">Connect with us on social media</h1>
+            <div class="flex gap-4 text-xl">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-square-threads"></i>
+            </div>
+        </div>
+    
+    <footer class="bg-slate-700">
+        <div class="text-white flex justify-evenly items-center text-sm py-3 max-md:flex-col max-md:gap-2">
+            <div>@2026 Your Website</div>
+            <a>PrivacyPolicy</a>
+            <a href="#">About</a>
+            <div class="flex gap-4 text-xl">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-square-threads"></i>
+            </div>
+        </div>
+    </footer>
+        </div>
+    </section>
+</body>
+
+</html>
