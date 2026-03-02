@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>SignIn</title>
+</head>
+<body class="bg-purple-200 min-h-screen flex items-center justify-center max-sm:px-2">
+    <div class="flex h-[300px] text-gray-500 bg-white max-w-140 rounded-2xl shadow-xl overflow-hidden">
+        <div class=" flex flex-col gap-3 justify-center px-5 w-full max-sm:text-center">
+            <h1 class="text-2xl font-bold text-center max-sm:text-sm bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">Sign In</h1>
+            <div class="cursor-pointer flex justify-center gap-3 text-sm max-sm:text-xs">
+                <a href="https://www.google.com/"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://tomcat.apache.org/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>   
+            </div>
+            <p class="text-center text-xs">or use your email password</p>
+            <div class="flex flex-col gap-3 text-xs">
+                <input class="bg-slate-200 w-full h-8 pl-3 rounded-sm" type="text" placeholder="Email">
+                <input class="bg-slate-200 w-full h-8 pl-3 rounded-sm" type="text" placeholder="Password">
+            </div>
+            <div class="flex items-center flex-col gap-3">
+                <h1 class="text-xs">Forget Your Password?</h1>
+                <button class="cursor-pointer bg-linear-to-l from-indigo-700 to-purple-400 text-white text-xs w-[50%] py-1 rounded-sm">SIGN IN</button>
+            </div>
+            
+        </div>
+
+        <div class="bg-linear-to-t from-purple-700 to-indigo-400 text-gray-100 text-center flex flex-col justify-center items-center gap-4 px-4 w-full rounded-tl-[30%] rounded-bl-[30%]">
+            <h1 class="text-xl font-bold">Hello, Friend!</h1>
+            <p class="text-xs">Register with your personal details to use all of site features.</p>
+            <a class="cursor-pointer text-xs border w-[50%] py-1 rounded-sm hover:bg-white hover:text-purple-700" href="create.html">SIGN UP</a>
+        </div>
+    </div>
+</body>
+</html>
