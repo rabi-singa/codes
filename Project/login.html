@@ -9,7 +9,63 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
   <title>Amazon Clone</title>
 
-  <style>
+  <style><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Login</title>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gray-300 px-4">
+    <div class="bg-linear-65 from-purple-400 to-pink-300 w-full max-w-xs rounded-md py-8 text-center flex flex-col p-5 gap-6 shadow-xl">
+        <div class="flex flex-col items-center gap-2">
+            <h1 class="text-3xl font-bold">Log in</h1>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-threads"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p class="text-xs">or use your email</p>
+        </div>
+        <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-1">
+                <label class="flex text-sm">Email</label>
+                <input class="text-xs border-1 rounded-md pl-2 py-1" type="text" placeholder="Email">
+            </div>
+            <div class="flex flex-col gap-1">
+                <label class="flex text-sm">Password</label>
+                <input class="text-xs border-1 rounded-md pl-2 py-1" type="text" placeholder="Password">
+            </div>
+
+
+            <div class="flex justify-between text-xs font-semibold max-sm:flex-col">
+                <div>
+                    <input type="checkbox">
+                    <label for="remember">Remember</label>
+                </div>
+
+                <a href="#">Forget Password?</a>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-3">
+            <button class="py-2 text-white text-xs bg-green-900 rounded-md hover:bg-black"><a
+                    href="signup.html">SignUp</a> </button>
+
+            <div class="flex justify-between text-xs font-semibold max-sm:flex-col">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Condition</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
     .scrollbar-hide::-webkit-scrollbar {
       display: none;
     }
